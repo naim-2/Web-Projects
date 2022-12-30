@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title> Form </title>
+<style type="text/css">
+body {
+	color: #ffffff;
+	background-color: #000000;
+	text-align: center;
+	border-top: 3px solid red;
+	border-right: 3px solid red;
+	border-bottom: 3px solid red;
+	border-left: 3px solid red;
+	font-size: 100%;
+}
+img {width: 100%;}
+h1 {color: #00ef00; font-size: 200%;}
+p {color: #ff0000;}
+form {color: #ffffff;}
+input {color:#ff0000;}
+form label {text-align: right; }
+form [type=submit] {
+	border-color: #0000ff; 
+	color: #0000ff; 
+	height: 40px;
+	width: 60px; }
+form [type=reset] {
+	border-color: #0000ff; 
+	color: #0000ff; 
+	height: 40px;
+	width: 60px; }
+form [type=submit]:hover {
+	border-color: #ff0000; 
+	color: #ff0000; }
+form [type=reset]:hover {
+	border-color: #ff0000; 
+	color: #ff0000; }
+</style>
+</head>
+
+<body>
+<img src="Images/usiu.jpg" alt="USIU logo.">
+
+<h1><u> Questionnaire </u> </h1>
+
+<p> Please provide the information required below; </p>
+<form action="mailto:nsalim@usiu.ac.ke" method=post>
+
+<label>Name: &nbsp;&nbsp;</label>
+<input type="text" size="30" maxlength="40" name="Name"> 
+<br> <br>
+
+<label>Address: </label>
+<input type="text" size="30" maxlength="40" name="Address">
+<br> <br>
+
+<label>Sex; </label>
+<br><br>
+<input type="radio" name="sex" value="Male"> Male
+<br> 
+&nbsp; &nbsp;<input type="radio" name="sex" value="Female"> Female
+<br> <br>
+
+<label>Course: </label>
+<br><br>
+<select name="course"> 
+<option> Business Administration
+<option> International Business Administration
+<option> International Relations
+<option> MOD
+<option> IST
+</select>
+<br> <br>
+
+<label>Favourite country for further studies; </label>
+<br><br>
+<input type="checkbox" name="country to study" value="DRC"> DRC <br>
+&nbsp; <input type="checkbox" name="country to study" value="Kenya"> Kenya <br>
+&nbsp; &nbsp;&nbsp; <input type="checkbox" name="country to study" value="Australia"> Australia <br>
+&nbsp;&nbsp; <input type="checkbox" name="country to study" value="Senegal"> Senegal <br>
+<br> <br>
+
+<label>Advice to potential/aspiring USIU students </label>
+<br><br>
+<textarea name="advice" cols="40" rows="5">
+</textarea>
+<br>
+
+Thank You <br><br>
+<input type="submit" value="Finish">
+<input type="reset" value="Clear">
+
+</form>
+</body>
+</html>

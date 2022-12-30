@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title> Order Summary & Payment Form: Timsah Store </title>
+<style>
+body {
+	margin: 0;
+	font-size: 100%;
+	background-color: #eee000;}
+
+h1 {
+	color: #ee0000;
+	background-color: #dddddd;
+	margin: 0;
+	border-bottom: 0.3em solid #888888;
+	border-radius: 0em 0em 1em 1em;
+	text-align: center;
+	padding-left: 18%;
+	padding: 1em;
+	font-family: "Apple Chancery", cursive; }
+
+img {
+	height: 70px;
+	float: left;
+	margin-left: 7%;
+	margin-top: 1em; }
+
+h3 { margin-left : 5%; }
+
+a { text-decoration: none; }
+a:link { color: #007700; }
+a:focus { color:#8985a0; }
+a:hover { color: #ff0000; }
+
+#links {
+	margin-bottom: -3em;
+	margin-top: 1em; }
+
+#search {
+	width: 25%;
+	padding: 8px;
+	padding-top: 0px;
+	float: right;
+	margin-right: 10%;
+	margin-top: -4em; }
+
+#search [type=submit] {
+	background-color: #eee000;
+	color: #ee0000;
+	border-color: #007700; }
+
+#content {
+	color: #000000;
+	background-color: #dddddd;
+	text-align: left;
+	height: 400px;
+	width: 350px;
+	float: center;
+	margin-top: -21em;
+	margin-left: 17.1em;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border: 3px outset #dddddd;
+	padding: 2em;
+	padding-top: 0em;
+	margin-bottom: 10em; }
+
+#shipping {
+	color: #000000;
+	background-color: #dddddd;
+	height: 375px;
+	width: 875px;
+	float: center;
+	border: 3px outset #dddddd;
+	margin-top: -9.8em;
+	margin-left: 17.1em;
+	padding: 2em; }
+
+#shipping form [type=submit] {
+	height: 27px;
+	width: 80px;
+	color: #ff0000;
+	background-color: #dddddd;
+	border: 2px outset #ff0000;
+	margin: -14em 2em 1em 0em; }
+
+#shipping form button {
+	height:40px;
+	width:50px;
+	color: #ff0000;
+	background-color: #dddddd;
+	border: 2px outset #ff0000;
+	margin-left: 25em;
+	margin-top: -4em; }
+
+#payment {
+	height: 320px;
+	width: 450px;
+	margin-top: -13em;
+	margin-left: 23.2em;
+	border-left: 2px solid black;
+	padding-left: 2em; }
+
+#payment [name=mpesacode] {
+	height: 20px; }
+
+#payment a {
+	margin-left: 18em;
+	font-size: 125%; }
+
+#content img {
+	height: 200px;
+	width: 200px;
+	margin-top: -0.75em; }
+
+#content #belowimage {
+	margin-top: 15em;
+	margin-left: 2em; }
+
+#nav {
+	margin: 5%;
+	height: 250px;
+	width: 150px;
+	color: #007700;
+	background-color: #ffa0a0;
+	border: 3px outset #ffa0a0;
+	padding: 1em;
+	padding-top: 0em; }
+
+#nav p {
+	margin-bottom: -0.5em; }
+
+#details {
+	height: 400px;
+	width: 450px;
+	background-color: #dddddd;
+	border: 3px outset #dddddd;
+	padding: 2em;
+	padding-top: 0em;
+	float: right;
+	margin-top: -55.4em;
+	margin-right: 2.85em; }
+
+#details2 {
+	height: 230px;
+	width: 150px;
+	float: right;
+	margin: -17.3em 0em 0em 1em;
+	border-left: 2px solid black;
+	padding-left: 1em; }
+
+#contact {
+	color: #000000;
+	background-color: #dddddd;
+	text-align: center;
+	height: 110px;
+	width: 875px;
+	float: center;
+	margin-top: 0.3em;
+	margin-left: 17.1em;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border: 3px outset #dddddd;
+	padding: 2em;
+	padding-top: 0em;
+	margin-bottom: 2em; }
+
+#links ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;}
+
+#links li {
+	float: left;
+	display: block;
+	background-color: #dddddd;
+	border: 3px ridge #888888;
+	padding: 5px;
+	margin: 3px;
+	border-radius: 20px; }
+
+#links ul li:hover {
+	background-color: #eee000;
+	color: #000000;
+	border: 3px ridge #ff0000;
+	padding: 7px;
+	border-radius: 20px;
+	text-align: center; }
+</style>
+</head>
+
+
+<body>
+<img src="Images/Timsah.png" alt="Timsah Logo">
+
+<h1> Timsah Store </h1>
+
+<div id="links">
+<h3> <a href="index.html"> <ul> <li> HomePage </li> </a>
+<a href="Phone3.html"> <li> Huawei Phones </li> </a>
+<a href="Huawei3.html"> <li> Huawei Mate 40 Pro </li> </a>
+<a href="Huawei3Step1.html"> <li> Shipping Address Form </li> </a>
+<br> <br> <br>
+<a href="Huawei3Step2.html"> <li style="margin-top: -10px;"> Order Summary & Payment Form </li> </ul> </a>
+<br> <br> <br> </h3>
+</div>
+
+<div id="search">
+<form action="All.html" method="POST">
+<input type="text" size="30" maxlength="50" name="Search" placeholder="Search for...">
+<input type="submit" name="submit" value="Search"> </form>
+</div>
+
+<div id="nav">
+<h4 style="font-size: 120%; color: #000000;"> Our Phones: </h4>
+<p> <a href="Phone1.html"> Samsung </a> </p>
+<p> <a href="Phone2.html"> iPhone </a> <br> </p>
+<p> <a href="Phone3.html"> Huawei </a> <br> </p>
+<p> <a href="Phone4.html"> Oppo </a> <br> </p>
+<p> <a href="Phone5.html"> Infinix </a> <br> </p>
+</div>
+
+<div id="content">
+<h3 style="text-align: left;"> Product </h3>
+<img src="Images/Huawei3.png" alt="Huawei Mate 40 Pro">
+
+<div id="belowimage">
+<p><b>Huawei Mate 40 Pro:</b> 6.76 Inches, <br> 256GB ROM + 8GB RAM <br>
+</p>
+<p><b>Color:</b> Black<br> </p>
+<p><b>Quantity:</b> <select> <option> 1 </option> </select> <br>
+</p>
+</div>
+</div>
+
+<div id="shipping">
+<h3 style="margin-left: 1em; margin-top: -0.5em;"> Select Your Shipping Preference </h3>
+<form action="mailto:nsalim@usiu.ac.ke" method="POST" style="margin-left: 1em;">
+<input type="radio" name="shippingaddress" value="shippingtoaddress">
+Delivered from 5-7 business days at your address
+<br>
+<input type="radio" name="shippingaddress" value="shippingtooffice">
+Pickup from our office in 3-5 business days
+<br> <br> <br>
+<b>Note that: Both the preferences cost the same price <br>
+and our pickup and delivery services will be <br>
+unavailable on <em>public holidays. </em></b>
+<br> <br>
+
+<div id="payment">
+<h3> Payment <br>
+M-PESA </h3>
+<p style="margin-left: 1.5em;"> Follow the instructions below:
+<ol><li> Open your SIM Toolkit App. </li>
+<li> Select M-PESA. </li>
+<li> Select Lipa na M-PESA. </li>
+<li> Select Buy Goods and Services. </li>
+<li> Enter Till Number as 650270. </li>
+<li> Enter Amount as 145500. </li>
+<li> Enter your M-PESA PIN. </li>
+<li> Enter the code that you received <br>
+from M-PESA in the box shown below. </li>
+<br>
+<input type="text" size="25" maxlength="30" name="mpesacode" placeholder="Enter Your M-PESA Code">
+<input type="submit" value="Submit"> </p>
+<br>
+<a href="Done.html"> Done </a>
+</form>
+</div>
+</div>
+
+<div id="details">
+<h3 style= "text-align: center;"> Order Summary </h3>
+<br>
+<p> <b>Huawei Mate 40 Pro:</b> 6.76 Inches, <br> 256GB ROM + 8GB RAM: </p>
+<p> Special Discounts: </p>
+<p> Shipping Charges: </p>
+<p> Customer Handling Charges: </p>
+<br>
+<p style="border-top: 2px solid black;"><b>Total Charges: </b>
+<br> <br> <br>
+The prices above are inclusive of tax. </p>
+
+<div id="details2">
+<p> Ksh. 145,000 </p>
+<p> Ksh. 0 </p>
+<p> Ksh. 500 </p>
+<p> Ksh. 0 </p>
+<br>
+<p><b>Ksh. 145,500</b> </p>
+</div>
+</div>
+
+<div id="contact">
+<p>
+<b style="margin-left: -50em;"> Contact Us: </b>
+<br>
+Office 03-Langata 33, Langata S Road, Ndalat Road
+<br> <br>
+P O Box 80030 05347 Nairobi
+<br> <br>
+Email: <a href="mailto:nsalim@usiu.ac.ke"> nsalim@usiu.ac.ke </a>
+</p>
+</div>
+
+</body>
+</html>
