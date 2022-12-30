@@ -1,0 +1,78 @@
+/*Main: #A67737 - Brown Light
+#E9D7BF - Whittish
+#FFA62C - Very Light Brown
+#46351E - Dark brown
+#2B2011 - Blackish
+*/
+h1 {
+    text-align: center;
+    color: #46351E;
+    padding-bottom: 0.5em;
+    border-bottom: 3px #E9D7BF solid;
+}
+body{
+    background-color: #A67737;
+}
+form {
+    background-color: #E9D7BF;
+    padding: 2em;
+    height: 8em;
+    margin: auto;
+}
+form label {
+    display: block;
+    margin: 0px 0px 15px 0px;
+    color: #744300;
+    font-weight: bolder;
+}
+form label > span {
+    width: 25%;
+    float: left;
+    padding-left: 5%;
+}
+form input[type=text] {
+    width: 60%;
+    border-color: #FFA62C;
+}
+form button {
+    float: right;
+    margin-right: 9%;
+    height: 2.2em;
+    background-color: #FFA62C;
+    color: #744300;
+    border-color: #744300;
+}
+form button:hover{
+    background-color: #744300;
+    color: #FFA62C;
+    border-color: #FFA62C;
+}
+table {
+    margin: auto;
+    width: 100%;
+    border-top: 2px #FFA62C solid;
+    background-color: #E9D7BF;
+}
+div {
+    border: 2px #FFA62C solid;
+    width: 31em;
+    margin-left: 4em;
+    float: left;
+}
+th {
+    padding-top: 0.8em;
+    padding-bottom: 0.6em;
+    text-align: left;
+    color: #744300;
+    font-weight: bolder;
+}
+td {
+    padding-bottom: 0.4em;
+}
+canvas{
+    background-color: #E9D7BF;
+}
+#cb{
+    background-color: #E9D7BF;
+    width: 100%;
+}

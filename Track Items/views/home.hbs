@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Track Items</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body onload="fetchStudents()">
+        <h1>Track Item Prices' In Kenya</h1>
+        <div>
+            <form>
+                <label>
+                    <span>Product:</span>
+                    <input id="product" type="text" />
+                </label>
+                <label>
+                    <span>Price:</span>
+                    <input id="price" type="text" />
+                </label>
+                <label>
+                    <span>Year:</span>
+                    <input id="year" type="text" />
+                </label>
+                <label>
+                    <span> </span>
+                    <button id="add">Add Product</button>
+                </label>
+            </form>
+            
+            <table id="content">
+            </table>
+        </div>
+        <div>
+            <canvas id="myChart"></canvas>
+            <label id="cb">
+            </label>
+        </div>
+    </body>
+    <script src="js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js" integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</html>

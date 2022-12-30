@@ -1,0 +1,82 @@
+[
+  {
+    "product": "bread",
+    "price": "50",
+    "year": "2010"
+  },
+  {
+    "product": "bread",
+    "price": "54",
+    "year": "2019"
+  },
+  {
+    "product": "bread",
+    "price": "60",
+    "year": "2021"
+  },
+  {
+    "product": "milk",
+    "price": "123",
+    "year": "2010"
+  },
+  {
+    "product": "milk",
+    "price": "127",
+    "year": "2011"
+  },
+  {
+    "product": "milk",
+    "price": "120",
+    "year": "2012"
+  },
+  {
+    "product": "milk",
+    "price": "119",
+    "year": "2013"
+  },
+  {
+    "product": "milk",
+    "price": "130",
+    "year": "2014"
+  },
+  {
+    "product": "milk",
+    "price": "135",
+    "year": "2015"
+  },
+  {
+    "product": "milk",
+    "price": "123",
+    "year": "2016"
+  },
+  {
+    "product": "milk",
+    "price": "132",
+    "year": "2017"
+  },
+  {
+    "product": "milk",
+    "price": "140",
+    "year": "2018"
+  },
+  {
+    "product": "milk",
+    "price": "100",
+    "year": "2019"
+  },
+  {
+    "product": "water",
+    "price": "30",
+    "year": "2021"
+  },
+  {
+    "product": "water",
+    "price": "30",
+    "year": "2022"
+  },
+  {
+    "product": "bread",
+    "price": "50",
+    "year": "2010"
+  }
+]
