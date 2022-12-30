@@ -1,0 +1,114 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Playfair Display', serif;
+  background-image: url(../photo/meeting.jpg);
+  background-size: 100% 100%;
+}
+*{
+  color: aliceblue;
+}
+.container{
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+}
+#section{
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 5.5em;
+  margin: auto
+}
+.container h2{
+  text-align: center;
+  text-decoration: underline;
+  color: red;
+  letter-spacing: 2px;
+  font-size: 45px;
+}
+i.fa{
+  font-size: 30px;
+  padding: 3%;
+  border-radius: 100%;
+  margin: 2%;
+  cursor: pointer;
+  border:2px solid red;
+  color: red;
+}
+i.fa:hover, .submit:hover{
+  cursor: pointer;
+  border: 1px solid red;
+  color: red;
+}
+.contact-form{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.info, legend{
+  font-size: 16px;
+  font-style: italic;
+  color: red;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.info{
+  font-size: 18px;
+}
+input, textarea{
+  padding: 10px;
+  margin:10px;
+  width: 70%;
+  background-color:rgba(136, 133, 133, 0.5);
+  color: white;
+  border: none;
+}
+::placeholder{
+  color: red;
+}
+.submit{
+  width: 40%;
+  background: none;
+  padding: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  height: 35px;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-left: 3%;
+  border: 2px solid red;
+  color: red;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  background-color: black;
+  overflow: hidden;
+}
+.menu a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+.menu a:hover {
+  background-color: white;
+  color: black;
+}
+@media only screen and (max-width: 819px){
+  .contact-form{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .submit{
+    width: 60%;
+  }
+}
